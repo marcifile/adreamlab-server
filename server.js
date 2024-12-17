@@ -10,7 +10,7 @@ const app = express();
 
 // Configure CORS to allow requests from your frontend
 app.use(cors({
-    origin: ['https://adreamlab.netlify.app', 'http://localhost:5500', 'http://127.0.0.1:5500'],
+    origin: ['https://dreamlabssol.com', 'https://www.dreamlabssol.com', 'http://localhost:5500', 'http://127.0.0.1:5500'],
     methods: ['GET', 'POST'],
     credentials: true
 }));
